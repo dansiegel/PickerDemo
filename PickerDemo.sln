@@ -1,0 +1,57 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickerDemo", "PickerDemo\PickerDemo.csproj", "{741487CC-D77E-4E42-AE61-4C5392697E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickerDemo.iOS", "iOS\PickerDemo.iOS.csproj", "{8DCAE0E1-B459-4482-96A5-A9491D7999C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickerDemo.Droid", "Droid\PickerDemo.Droid.csproj", "{63FFA89B-3D13-4BF2-B083-744173106E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Release|iPhone.Build.0 = Release|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{741487CC-D77E-4E42-AE61-4C5392697E8E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Release|Any CPU.Build.0 = Release|iPhone
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Release|iPhone.ActiveCfg = Release|iPhone
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Release|iPhone.Build.0 = Release|iPhone
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{8DCAE0E1-B459-4482-96A5-A9491D7999C8}.Debug|iPhone.Build.0 = Debug|iPhone
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Release|iPhone.Build.0 = Release|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{63FFA89B-3D13-4BF2-B083-744173106E28}.Debug|iPhone.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
