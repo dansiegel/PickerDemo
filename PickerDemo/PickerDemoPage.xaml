@@ -6,7 +6,8 @@
     <ContentPage.BindingContext>
         <local:PickerDemoPageViewModel />
     </ContentPage.BindingContext>
-    <StackLayout>
+    <StackLayout Padding="10,20">
+        <!-- Picker with explicitly set values in XAML -->
         <Picker SelectedItem="{Binding SelectedItem}">
             <Picker.Items>
                 <x:String>Item 1</x:String>
@@ -14,6 +15,14 @@
             </Picker.Items>
         </Picker>
         <Label Text="{Binding SelectedItem,StringFormat='You Selected: {0}'}" />
+
+        <!-- Picker with Dynamically set values -->
+        <Picker ItemsSource="{Binding SomeCollection}" SelectedItem="{Binding AnotherItem}" />
+        <Label Text="{Binding AnotherItem,StringFormat='You picked: {0}'}" />
+
+        <!-- Date Picker using a custom display format -->
+        <DatePicker Date="{Binding SomeDate}" Format="MMMM dd, yyyy" />
+        <Label Text="{Binding SomeDate,StringFormat='{0:dd MMMM, yyyy}'}" />
     </StackLayout>
 	
 </ContentPage>
